@@ -9,7 +9,7 @@ alert((principal*rate*time)/100);
 // Area of circle 
 
 let radius=Number(prompt("Enter Radius you will get the area"));
-alert((3.14*radius*radius));
+alert((Math.PI*radius*radius));
 
 // Volume of cube
 
@@ -20,5 +20,5 @@ alert((6*edge*edge));
 
 let Radius=Number(prompt("Enter the Radius "));
 let height=Number(prompt("Enter the Height "));
-alert((2*3.14*Radius*height));
+alert((2*Math.PI*Radius*height));
 
